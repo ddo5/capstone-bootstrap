@@ -50,9 +50,13 @@
       } else if (tab === 'Financial' && subtab === 'Receipts') {
         return '<h2>Receipts Coming Soon</h2>';
       } else if (tab === 'Staff Meeting Minutes' && subtab === '09-11-2023') {
-        return '<embed src="/assets/dist/docs/meeting_09_11_23.pdf" type="application/pdf"/>';
+        return '<embed src="/assets/dist/docs/meeting_9_11.pdf" type="application/pdf"/>';
       } else if (tab === 'Staff Meeting Minutes' && subtab === '09-25-2023') {
-        return '<h2>Content for 09/25 Meeting</h2>';
+        return '<embed src="/assets/dist/docs/meeting_9_25.pdf" type="application/pdf"/>';
+      } else if (tab === 'Staff Meeting Minutes' && subtab === '10-02-2023') {
+        return '<embed src="/assets/dist/docs/meeting_10_2.pdf" type="application/pdf"/>';
+      } else if (tab === 'Staff Meeting Minutes' && subtab === '10-16-2023') {
+        return '<embed src="/assets/dist/docs/meeting_10_16.pdf" type="application/pdf"/>';
       } else {
         return '<h2>Welcome to the Docs Page!</h2><p>Please select a tab and subtab to view the content.</p>';      }
     }
